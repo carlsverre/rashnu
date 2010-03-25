@@ -12,7 +12,7 @@ gem "rails", "3.0.0.beta"
 gem "sqlite3-ruby", :require => "sqlite3"
 
 gem "warden", "~> 0.9.3"
-gem "devise", "1.1.pre2"
+gem "devise", "1.1.pre4"
 
 gem "compass"
 gem "compass-960-plugin"
