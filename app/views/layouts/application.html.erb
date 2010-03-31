@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= csrf_meta_tag %>
+    <%= javascript_include_merged :base %>
+    <%= stylesheet_link_merged :base %>
+  </head>
+  <body>
+
+    <% flash.each do |key,msg| %>
+      <%= content_tag :div, msg, :class => [key,'message'], :id=>"notice_#{key}" %>
+    <% end %>
+
+    <%= yield %>
+
+  </body>
+</html>

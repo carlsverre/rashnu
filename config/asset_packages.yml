@@ -1,8 +1,9 @@
 --- 
 javascripts: 
 - base: 
+  - jquery_1_4_2
   - rails
   - app
 stylesheets: 
 - base: 
-  - app
+  - scaffold
