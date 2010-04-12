@@ -11,8 +11,8 @@ gem "rails", "3.0.0.beta"
 # Rails has selected sqlite3.
 gem "sqlite3-ruby", :require => "sqlite3"
 
-gem "warden", "~> 0.9.3"
-gem "devise", "1.1.pre4"
+gem "warden", "0.10.3"
+gem "devise", "1.1.rc0"
 
 gem "compass"
 gem "compass-960-plugin"
